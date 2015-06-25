@@ -11,7 +11,7 @@
 <body>
 <?php
 define("TSUBO",3.3);//1坪=3.3平米
-echo "全部別別表記";
+echo "<p>全部別別表記</p>";
 //100平米
 printf('%s',"101号室→");
 printf('%.2f', 100/TSUBO);
@@ -25,10 +25,10 @@ printf('%s',"103号室→");
 printf('%.2f', 150/TSUBO);
 printf('%s<br><br><br><br>',"坪");
 
-
-printf('101号室→%.2f坪<br>',100/TSUBO);//100平米
-printf('102号室→%.2f坪<br>',75/TSUBO);//75
-printf('103号室→%.2f坪<br>',150/TSUBO);//150
+echo "<p>部屋ごとPHP</p>";
+printf('<p>101号室→%.2f坪</p>',100/TSUBO);//100平米
+printf('<p>102号室→%.2f坪</p>', 75/TSUBO);//75
+printf('<p>103号室→%.2f坪</p>',150/TSUBO);//150
 ?>
 </body>
 </html>

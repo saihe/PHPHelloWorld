@@ -19,9 +19,11 @@
 <file name="moji_06.php" server="sv1" local="130795962266990870" remote="130795962000000000" />
 <file name="moji_07.php" server="sv1" local="130795964279255746" remote="130795964400000000" />
 <file name="enzan1.php" server="sv1" local="130795974988224177" remote="130795975200000000" />
-<file name="rensyu1.php" server="sv1" local="130796718640812595" remote="130796719200000000" />
-<file name="rensyu4.php" server="sv1" local="130796755062622191" remote="130796755200000000" />
-<file name="rensyu2.php" server="sv1" local="130796723338644079" remote="130796723400000000" />
-<file name="rensyu3.php" server="sv1" local="130796749301378373" remote="130796749800000000" />
-<file name="rensyu5.php" server="sv1" local="130796788199041107" remote="130796788200000000" />
+<file name="rensyu1.php" server="sv1" local="130796718640812595" remote="130796818200000000" />
+<file name="rensyu4.php" server="sv1" local="130796816155700665" remote="130796818200000000" />
+<file name="rensyu2.php" server="sv1" local="130796723338644079" remote="130796818200000000" />
+<file name="rensyu3.php" server="sv1" local="130796814865075427" remote="130796818200000000" />
+<file name="rensyu5.php" server="sv1" local="130796818099933364" remote="130796818200000000" />
+<file name="rensyu6.php" server="sv1" local="130796873663791104" remote="130796874000000000" />
+<file name="rensyu6_2.php" server="sv1" local="130796865318337753" remote="130796866200000000" />
 </dwsync>
