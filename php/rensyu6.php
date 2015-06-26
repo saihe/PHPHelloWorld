@@ -4,25 +4,29 @@
 <title>無題ドキュメント</title>
 
 <style>
-//書くクラス（男女比率）において最大値と同じなら赤文字にする
+td{
+	text-align:center;
+	color:<?php echo $moij; ?>;
+}
+/*書くクラス（男女比率）において最大値と同じなら赤文字にする
 .aod{
-	color:<?php if($dr==$d1){echo $moji;}; ?>
+	color:<?php if($dr==$d1){echo $moji;} ?>
 }
 .aoj{
-	color:<?php if($jr==$j1){echo $moji;}; ?>
+	color:<?php if($jr==$j1){echo $moji;} ?>
 }
 .iwd{
-	color:<?php if($dr==$d2){echo $moji;}; ?>
+	color:<?php if($dr==$d2){echo $moji;} ?>
 }
 .iwd{
-	color:<?php if($jr==$j2){echo $moji;}; ?>
+	color:<?php if($jr==$j2){echo $moji;} ?>
 }
 .akd{
-	color:<?php if($dr==$d3){echo $moji;}; ?>
+	color:<?php if($dr==$d3){echo $moji;} ?>
 }
 .akd{
-	color:<?php if($jr==$j3){echo $moji;}; ?>
-}
+	color:<?php if($jr==$j3){echo $moji;} ?>
+}*/
 </style>
 </head>
 
@@ -33,7 +37,7 @@ $midashi = "#E1E1BC";
 $cell    = "#E7E7E7";
 $moji    = "red";
 $d1      = 663/1407*100;          //青森男子
-$j1      = 774/1407*100;          //青森女子
+$j1      = 744/1407*100;          //青森女子
 $d2      = 652/1364*100;          //岩手男子
 $j2      = 712/1364*100;          //岩手女子
 $d3      = 527/1121*100;          //秋田男子
@@ -57,27 +61,27 @@ $jr      = max( $j1 , $j2 , $j3 );//各県女子比率の中から最大値を�
   </tr>
   <tr style = "background-color:<?php echo $cell?>;">
     <td>青森県</td>
-    <td>1407</td>
-    <td>663</td>
-    <td>774</td>
-  	<td class=aod><?php printf( "%.1f&#37" , $d1 ); ?></td>
-    <td class=aoj><?php printf( "%.1f&#37" , $j1 ); ?></td>
+    <td>1407(千人）</td>
+    <td>663(千人）</td>
+    <td>774(千人）</td>
+  	<td class=aod style="color:<?php if($dr==$d1){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $d1 ); ?></td>
+    <td class=aoj style="color:<?php if($jr==$j1){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $j1 ); ?></td>
   </tr>
   <tr style = "background-color:<?php echo $cell?>;">
     <td>岩手県</td>
-    <td>1364</td>
-    <td>652</td>
-    <td>712</td>
-  	<td class=iwd><?php printf( "%.1f&#37" , $d2 ); ?></td>
-    <td class=iwj><?php printf( "%.1f&#37" , $j2 ); ?></td>
+    <td>1364(千人）</td>
+    <td>652(千人）</td>
+    <td>712(千人）</td>
+  	<td class=iwd style="color:<?php if($dr==$d2){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $d2 ); ?></td>
+    <td class=iwj style="color:<?php if($jr==$j2){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $j2 ); ?></td>
   </tr>
   <tr style = "background-color:<?php echo $cell?>;">
     <td>秋田県</td>
-    <td>1121</td>
-    <td>527</td>
-    <td>593</td>
-  	<td class=akd><?php printf( "%.1f&#37" , $d3 ); ?></td>
-    <td class=akj><?php printf( "%.1f&#37" , $j3 ); ?></td>
+    <td>1121(千人）</td>
+    <td>527(千人）</td>
+    <td>593(千人）</td>
+  	<td class=akd style="color:<?php if($dr==$d3){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $d3 ); ?></td>
+    <td class=akj style="color:<?php if($jr==$j3){echo $moji;} ?>;"><?php printf( "%.1f&#37" , $j3 ); ?></td>
   </tr>
 </table>
 </body>
