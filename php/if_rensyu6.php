@@ -7,7 +7,7 @@
 
 <body>
 <form method="POST" action="">
-	<p>性別「を入力して下さい</p>
+	<p>性別を入力して下さい</p>
 	<input type="text" name="user1" required><br>
 	<input type="text" name="user2" required><br>
     <input type="submit">
