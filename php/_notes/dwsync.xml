@@ -24,7 +24,7 @@
 <file name="rensyu2.php" server="sv1" local="130796723338644079" remote="130797694200000000" />
 <file name="rensyu3.php" server="sv1" local="130796814865075427" remote="130797694200000000" />
 <file name="rensyu5.php" server="sv1" local="130796818099933364" remote="130797694200000000" />
-<file name="rensyu6.php" server="sv1" local="130797550760628188" remote="130797694200000000" />
+<file name="rensyu6.php" server="sv1" local="130797550760628188" remote="130800253800000000" />
 <file name="rensyu6_2.php" server="sv1" local="130797564373507011" remote="130797694200000000" />
 <file name="if_rensyu1.php" server="sv1" local="130797603387779470" remote="130797694200000000" />
 <file name="if_rensyu2.php" server="sv1" local="130797616673819791" remote="130797694200000000" />
@@ -39,4 +39,13 @@
 <file name="switch_rensyu3.php" server="sv1" local="130797712316972558" remote="130797712200000000" />
 <file name="if_rensyu9.php" server="sv1" local="130797717952085017" remote="130797717600000000" />
 <file name="sankorensyu1.php" server="sv1" local="130797689988194865" remote="130797714000000000" />
+<file name="loop_rensyu1.php" server="sv1" local="130800177649248451" remote="130800177600000000" />
+<file name="loop_rensyu2.php" server="sv1" local="130800177727082948" remote="130800177600000000" />
+<file name="loop_rensyu3.php" server="sv1" local="130800180674923743" remote="130800180600000000" />
+<file name="loop_rensyu4.php" server="sv1" local="130800190323323052" remote="130800190200000000" />
+<file name="loop_rensyu5.php" server="sv1" local="130800194328714536" remote="130800315000000000" />
+<file name="loop_rensyu6.php" server="sv1" local="130800323193627216" remote="130800322800000000" />
+<file name="loop_rensyu7.php" server="sv1" local="130800218888057030" remote="130800318000000000" />
+<file name="loop_rensyu8.php" server="sv1" local="130800245531990282" remote="130800318000000000" />
+<file name="loop_rensyu9.php" server="sv1" local="130800262745247441" remote="130800318000000000" />
 </dwsync>
