@@ -6,6 +6,7 @@
 </head>
 
 <body>
+<p>&nbsp;</p>
 <?php
 
 for( $j = 1 ; $j <=5 ; $j++ ){
@@ -20,6 +21,15 @@ for( $j = 1 ; $j <=5 ; $j++ ){
 		}
 	}
 	echo "<br>";
+}
+for($j = 1 ; $i <= 5 ; $i++){
+	print "0";
+	$sum = 0;
+for($j = 1 ; $j <= $i ; $j++){
+	print "+".$j;
+		$sum += $j;
+}
+print "+" . $sum ."<br>";
 }
 ?>
 </select>

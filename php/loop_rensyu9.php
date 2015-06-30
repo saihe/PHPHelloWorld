@@ -22,14 +22,22 @@ $b = "#cfcfcf" ;
 $sum = 0 ;
 for( $i =1 ; $i <= 10 ; $i ++){
 	$sum = $sum +$i;
-	if( $i % 2 ){
+	/*elseを書くより下記のようにしたほうがよい*/
+	/*自分で書いたやつ
+	if( $i % 2 != 0){
 		echo "<tr bgcolor={$a}>" ;
 	}else{
 		echo "<tr bgcolor={$b}>" ;
 	}
+	*/
+	$bgc = "#fcfcfc";
+	if($i % 2 == 0 ){
+		$bgc = "#cfcfcf";
+	}
+	echo'<tr style="background-color:' . $bgc . '">';
 	echo "<td>{$i}</td><td>{$sum}</td>" ;
 	echo "</tr>" ;
-	}
+}
 ?>
 </table>
 </body>
