@@ -9,8 +9,8 @@
 <file name="index07.php" server="sv1" local="130795875713598264" remote="130801187400000000" />
 <file name="index08.php" server="sv1" local="130795889218116269" remote="130801187400000000" />
 <file name="index11.php" server="sv1" local="130795892615849524" remote="130801187400000000" />
-<file name="index12.php" server="sv1" local="130795898086670650" remote="130801187400000000" />
-<file name="index13.php" server="sv1" local="130795906992187133" remote="130801187400000000" />
+<file name="index12.php" server="sv1" local="130795898086670650" remote="130802740800000000" />
+<file name="index13.php" server="sv1" local="130795906992187133" remote="130802741400000000" />
 <file name="index14.php" server="sv1" local="130795908537285506" remote="130801187400000000" />
 <file name="index15.php" server="sv1" local="130795948382081041" remote="130801187400000000" />
 <file name="moji_01.php" server="sv1" local="130795952135594528" remote="130801187400000000" />
@@ -67,5 +67,19 @@
 <file name="hairetsu_rensyu13.php" server="sv1" local="130801940020246366" remote="130801959600000000" />
 <file name="hairetsu_rensyu14.php" server="sv1" local="130801959470649985" remote="130801959600000000" />
 <file name="func_rensyu1.php" server="sv1" local="130802043499133830" remote="130802043000000000" />
-<file name="func_rensyu2.php" server="sv1" local="130802047897953625" remote="130802047800000000" />
+<file name="func_rensyu2.php" server="sv1" local="130802060034078340" remote="130802059800000000" />
+<file name="post1.php" server="sv1" local="130802745952781471" remote="130802745600000000" />
+<file name="form1.html" server="sv1" local="130802744357174458" remote="130802745600000000" />
+<file name="get2.php" server="sv1" local="130802746952229144" remote="130802746800000000" />
+<file name="form2.html" server="sv1" local="130802746830893518" remote="130802746800000000" />
+<file name="form3.html" server="sv1" local="130802749486556474" remote="130802752200000000" />
+<file name="get3.php" server="sv1" local="130802752495968227" remote="130802752200000000" />
+<file name="form_rensyu1.php" server="sv1" local="130802777578574281" remote="130802778000000000" />
+<file name="form_rensyu1.html" server="sv1" local="130802774230515181" remote="130802797200000000" />
+<file name="form_rensyu2.html" server="sv1" local="130802779285428644" remote="130802873400000000" />
+<file name="form_rensyu2.php" server="sv1" local="130802873476126904" remote="130802873400000000" />
+<file name="form_rensyu3.php" server="sv1" local="130802794562523568" remote="130802794200000000" />
+<file name="form_rensyu3.html" server="sv1" local="130802792766074262" remote="130802793000000000" />
+<file name="cookie4_1.php" server="sv1" local="130802911151018549" remote="130802912400000000" />
+<file name="cookie4_0.php" server="sv1" local="130802912324203545" remote="130802912400000000" />
 </dwsync>
