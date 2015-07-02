@@ -26,6 +26,7 @@ if( $aa == "" ){
 	echo "C判定";
 }else if( $aa <  60 ){
 	echo "D判定";
+}
 ?>
 </body>
 </html>
