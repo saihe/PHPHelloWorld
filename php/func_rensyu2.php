@@ -59,11 +59,12 @@ return $sum;
 }
 /*平均点計算関数ave()*/
 function ave($ave){
-	$sum = 0;
+	/*$sum = 0;
 	for( $i = 0 ; $i < count($ave) ; $i++){
 		$sum += $ave[$i];
 	}
-return $sum / count($ave);
+	*/
+return sum($ave) / count($ave);
 	
 }
 $kokugo = array(52 , 69 , 74 , 95 , 41);
