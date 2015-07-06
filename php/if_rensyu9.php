@@ -7,7 +7,6 @@
 
 <body>
 <form method="POST" action="">
-	<p>点数を入力して下さい</p>
 	<input type="text" name="user1" required><br>
     <input type="submit">
 </form>
@@ -17,15 +16,15 @@ $aa = "";
 if( isset ( $_POST['user1'] ) ){
 	$aa = $_POST['user1'];
 }
-if $aa == null ){
-	echo 
+if( $aa == "" ){
+	echo "<p>点数を入力して下さい</p>";
 }else if( $aa >= 80 ){
 	echo "A判定";
-}else if( $aa >=70 ){
+}else if( $aa >= 70 ){
 	echo "B判定";
-}else if( $aa >=60 ){
+}else if( $aa >= 60 ){
 	echo "C判定";
-}else if( $aa < 60 ){
+}else if( $aa <  60 ){
 	echo "D判定";
 }
 ?>
