@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
+<table>
 <?php
 //$fp     = fopen("sales.csv","r");
 //$fp     = fopen("test1.csv","r");
@@ -30,20 +31,20 @@ while($stat = fgetcsv($fp)){
 		}
 	}
 }
-print "<table>";
 foreach($item as $key => $val){
 	print "<tr>";
 	print "<td>商品"   . $key . "</td>";
 	print "<td>合計：" . $val . "</td>";
 		if(!empty($amount)){
 			print "<td>数量：" . $amount[$key] . "</td>";
+			print "<td>合計：" . ($val * $amount[$key]) . "</td>";
 		}
 	print "</tr>";
 }
-print "</table>";
 
 //print_r($amount);
 fclose($fp);
 ?>
+</table>
 </body>
 </html>

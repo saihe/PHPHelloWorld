@@ -60,14 +60,14 @@ foreach($rawdata as $line){
 	$price[$line[0]] += $line[1] * $qty;
 	$amount  += array($line[0] => $line[1]);
 	$stat    += array($line[0] => $line[2]);
-print_r($line);
+/*print_r($line);
 print "<br>";
 print_r($price);
 print "<br>";
 print_r($amount);
 print "<br>";
 print_r($stat);
-print "<br>";
+print "<br>";*/
 }
 
 //priceのkeyとvalueを取り出し表示する。
