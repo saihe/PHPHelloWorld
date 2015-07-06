@@ -6,6 +6,8 @@
 </head>
 <body>
 <?php
+//$fp     = fopen("sales.csv","r");
+//$fp     = fopen("test1.csv","r");
 $fp     = fopen("test2.csv","r");
 $i      = 0;
 $sumi   = 0;
