@@ -11,7 +11,7 @@ $dnsinfo = "mysql:dbname={$USER};host=sv1;charset=utf8";
 	}catch(PDOException $e){
 		$res = $e->getMessage();
 	}
-	echo $res;
+	echo $i . $res;
 	echo "<br>";
 }
 ?>
