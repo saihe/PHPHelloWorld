@@ -2,15 +2,15 @@
 require_once("mydb.php");
 $db = new MYDB();
 $sql = "SELECT * FROM goods";
-$res = $db -> executesql($sql , null);
+$res = $db -> executeSQL($sql , null);
 $recordlist = "<table>\n";
+
 while($row = $res -> fetch(PDO::FETCH_ASSOC)){
 	$recordlist .= "<tr><td>{$row['GoodsID']}</td>";
 	$recordlist .= "<td>{$row['GoodsName']}</td>";
 	$recordlist .= "<td>{$row['Price']}</td></tr>\n";
 }
 $recordlist .= "</table>\n";
-
 ?>
 <!DOCTYPE HTML>
 <html>
