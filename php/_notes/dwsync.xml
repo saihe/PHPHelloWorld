@@ -35,7 +35,7 @@
 <file name="switch_rensyu1.php" server="sv1" local="130797621613662379" remote="130806194400000000" />
 <file name="switch_rensyu2.php" server="sv1" local="130797624078523952" remote="130806194400000000" />
 <file name="if_rensyu7.php" server="sv1" local="130797634105997217" remote="130806193800000000" />
-<file name="if_rensyu8.php" server="sv1" local="130797682960532818" remote="130806193800000000" />
+<file name="if_rensyu8.php" server="sv1" local="130797682960532818" remote="130807968000000000" />
 <file name="switch_rensyu3.php" server="sv1" local="130797713392874115" remote="130806194400000000" />
 <file name="if_rensyu9.php" server="sv1" local="130806172719915142" remote="130806193800000000" />
 <file name="sankorensyu1.php" server="sv1" local="130797689988194865" remote="130806194400000000" />
@@ -83,6 +83,5 @@
 <file name="cookie4_1.php" server="sv1" local="130802911151018549" remote="130806193800000000" />
 <file name="cookie4_0.php" server="sv1" local="130802912324203545" remote="130806193800000000" />
 <file name="dir_info.php" server="sv1" local="130803666336734841" remote="130806193800000000" />
-<file name="cooki4_0.php" server="sv1" local="130802878777885318" remote="130806193800000000" />
 <file name="post5.php" server="sv1" local="130802765321175908" remote="130806194400000000" />
 </dwsync>
