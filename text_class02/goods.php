@@ -1,8 +1,8 @@
 <?php
-require_once("mydb.php");
-$db = new MYDB();
+require_once("db.php");
+$db = new DB();
 $sql = "SELECT * FROM goods";
-$res = $db -> executesql($sql , null);
+$res = $db -> executeSQL($sql , null);
 $recordlist = "<table>\n";
 while($row = $res -> fetch(PDO::FETCH_ASSOC)){
 	$recordlist .= "<tr><td>{$row['GoodsID']}</td>";
