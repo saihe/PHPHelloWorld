@@ -13,11 +13,12 @@ if(isset($_POST["update"])){
 	$dbGoodsName = $dbGoods -> GoodsNameForUpdate($_POST["id"]);
 	$Price       = $dbGoods -> PriceNameForUpdate($_POST["id"]);
 	//クラスを記述することで表示/非表示を設定
-	$updateCss   = "class = 'hideArea'";
-	$entryCss = "";
-}else{
 	$updateCss   = "";
-	$entryCss = "class = 'hideArea'";
+	$entryCss    = "class = 'hideArea'";
+}else{
+	$updateCss   = "class = 'hideArea'";
+	$entryCss    = "";
+
 }
 
 //削除処理
@@ -70,7 +71,7 @@ function CheckDelete(){
 </form>
 </div>
 
-<div id = "update" <?php echo $entryCss; ?>>
+<div id = "update" <?php echo $updateCss; ?>>
 <h2>更新</h2>
 <form action = "" method = "post">
 <p>GoodsID：<?php echo $dbGoodsID; ?></p>
