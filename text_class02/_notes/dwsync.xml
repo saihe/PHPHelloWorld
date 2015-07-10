@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="goods.php" server="sv1" local="130808772642693886" remote="130808961600000000" />
-<file name="db.php" server="sv1" local="130808851036577181" remote="130808961600000000" />
-<file name="mydb.php" server="sv1" local="130808766865502467" remote="130808961600000000" />
-<file name="mygoods.php" server="sv1" local="130808766865659150" remote="130808961600000000" />
-<file name="goods2.php" server="sv1" local="130808788185685762" remote="130808961600000000" />
-<file name="DBGoods.php" server="sv1" local="130808873410000000" remote="130808961600000000" />
-<file name="goods03.php" server="sv1" local="130808905878561079" remote="130808961600000000" />
-<file name="style.css" server="sv1" local="130808811748988729" remote="130808961600000000" />
-<file name="DBCustomer.php" server="sv1" local="130808864720400195" remote="130808961600000000" />
-<file name="customer.php" server="sv1" local="130808907212505480" remote="130808968200000000" />
-<file name="DBSalesInfo.php" server="sv1" local="130808969382097217" remote="130808969400000000" />
-<file name="salesinfoEntry.php" server="sv1" local="130808961344993913" remote="130808961600000000" />
+<file name="goods.php" server="sv1" local="130809709541028765" remote="130809723000000000" />
+<file name="db.php" server="sv1" local="130809774993158120" remote="130809776400000000" />
+<file name="DBGoods.php" server="sv1" local="130808873410000000" remote="130809723000000000" />
+<file name="style.css" server="sv1" local="130808811748988729" remote="130809723000000000" />
+<file name="DBCustomer.php" server="sv1" local="130808864720400195" remote="130809723000000000" />
+<file name="customer.php" server="sv1" local="130809709177111685" remote="130809723000000000" />
+<file name="DBSalesInfo.php" server="sv1" local="130809723620704970" remote="130809723600000000" />
+<file name="salesinfoEntry.php" server="sv1" local="130809722662949482" remote="130809723000000000" />
+<file name="aaaDBSalesInfo.php" server="sv1" local="130809632256491607" remote="130809722400000000" />
+<file name="salesinfo.php" server="sv1" local="130809728783897730" remote="130809728400000000" />
+<file name="DBBill.php" server="sv1" local="130809776934239267" remote="130809777600000000" />
+<file name="goods01.php" server="sv1" local="130808772642693886" remote="130809723000000000" />
+<file name="goods02.php" server="sv1" local="130808788185685762" remote="130809723000000000" />
+<file name="bill.php" server="sv1" local="130809777537765716" remote="130809777600000000" />
 </dwsync>
