@@ -30,10 +30,10 @@ eof;
 	
 eof;
 			$data .= "</tr>\n";
-			}
-			$data .= "</table>\n";
-			return $data;
 		}
+		$data .= "</table>\n";
+		return $data;
+	}
 
 	public function InsertGoods(){
 		$sql  = "INSERT INTO goods VALUES(? , ? , ?)";

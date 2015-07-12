@@ -1,12 +1,15 @@
 <?php
-	require_once("dbgoods.php");
+	//require_once("dbgoods.php");
+	require_once("mydbgoods.php");
 	$dbgoods = new dbgoods();
-	
+	$res = $dbgoods -> selectGoods();
 	if(isset($_POST["insertGoods"])){
 		$dbgoods -> insertGoods();
+		$res = $dbgoods -> selectGoods();
 	}
-	
-	
+	if(isset($_POST["deleteGoods"])){
+		$dbgoods -> deleteGoods();
+	}
 ?>
 
 
@@ -25,5 +28,6 @@
 <label>Price    <input type = "text" name = "insertPrice"    ></label>
 <input type = "submit" name ="insertGoods" value = "　　追加　　">
 </form>
+<?php echo $res;?>
 </body>
 </html>
