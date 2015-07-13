@@ -3,18 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloMono", "helloMono\helloMono.csproj", "{7E993A8A-EEDA-4D24-95B8-0B2E71BABC42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rensyu", "rensyu\rensyu.csproj", "{9142A537-91E4-41FA-8791-AAC28FF12773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p11", "p11\p11.csproj", "{629BE223-01DB-49B9-B509-1004B57E3F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p12", "p12\p12.csproj", "{BA112CD0-8B33-43EF-BAC8-15F45AE8AE59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{629BE223-01DB-49B9-B509-1004B57E3F55}.Debug|x86.ActiveCfg = Debug|x86
+		{629BE223-01DB-49B9-B509-1004B57E3F55}.Debug|x86.Build.0 = Debug|x86
+		{629BE223-01DB-49B9-B509-1004B57E3F55}.Release|x86.ActiveCfg = Release|x86
+		{629BE223-01DB-49B9-B509-1004B57E3F55}.Release|x86.Build.0 = Release|x86
 		{7E993A8A-EEDA-4D24-95B8-0B2E71BABC42}.Debug|x86.ActiveCfg = Debug|x86
 		{7E993A8A-EEDA-4D24-95B8-0B2E71BABC42}.Debug|x86.Build.0 = Debug|x86
 		{7E993A8A-EEDA-4D24-95B8-0B2E71BABC42}.Release|x86.ActiveCfg = Release|x86
 		{7E993A8A-EEDA-4D24-95B8-0B2E71BABC42}.Release|x86.Build.0 = Release|x86
+		{9142A537-91E4-41FA-8791-AAC28FF12773}.Debug|x86.ActiveCfg = Debug|x86
+		{9142A537-91E4-41FA-8791-AAC28FF12773}.Debug|x86.Build.0 = Debug|x86
+		{9142A537-91E4-41FA-8791-AAC28FF12773}.Release|x86.ActiveCfg = Release|x86
+		{9142A537-91E4-41FA-8791-AAC28FF12773}.Release|x86.Build.0 = Release|x86
+		{BA112CD0-8B33-43EF-BAC8-15F45AE8AE59}.Debug|x86.ActiveCfg = Debug|x86
+		{BA112CD0-8B33-43EF-BAC8-15F45AE8AE59}.Debug|x86.Build.0 = Debug|x86
+		{BA112CD0-8B33-43EF-BAC8-15F45AE8AE59}.Release|x86.ActiveCfg = Release|x86
+		{BA112CD0-8B33-43EF-BAC8-15F45AE8AE59}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = helloMono\helloMono.csproj
+		StartupItem = p11\p11.csproj
 	EndGlobalSection
 EndGlobal
