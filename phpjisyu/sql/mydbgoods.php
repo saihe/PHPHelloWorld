@@ -13,6 +13,7 @@ class dbgoods extends db{
 			for($i = 0 ; $i < count($row) ; $i++){
 				$data .= "<td>{$row[$i]}</td>";
 			}
+			$data .= "<td><form method = 'post' action = ''><input type = 'hidden' name = 'updateGoodsID' value = {$row[0]}><input type = 'submit' name = 'updateGoods' value =  '更新'></form></td>";
 			$data .= "<td><form method = 'post' action = ''><input type = 'hidden' name = 'deleteGoodsID' value = {$row[0]}><input type = 'submit' name = 'deleteGoods' value =  '削除'></form></td>";
 			$data .= "</tr>\n";
 		}
@@ -29,6 +30,12 @@ class dbgoods extends db{
 	public function deleteGoods(){
 		$sql = "DELETE FROM goods WHERE GoodsID = ?";
 		$array = array($_POST["deleteGoodsID"]);
+		parent::executeSQL($sql , $array);
+	}
+	
+	public function updateGoods(){
+		$sql = "UPDATE SET GoodsName , Price WHERE GoodsID = ?";
+		$array = array($_POST[""] , $_POST[""]);
 		parent::executeSQL($sql , $array);
 	}
 }
