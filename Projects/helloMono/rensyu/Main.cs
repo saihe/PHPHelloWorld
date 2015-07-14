@@ -11,7 +11,7 @@ namespace rensyu
 			double toTokyo    = 715.0;
 			double toShibuya  = 6.9;
 			double toYokohama = 33.8;
-			Console.WriteLine ("青森→東京　　　　" + String.Format("{0,4}" , toTokyo.ToString("F1"))    + "km" + "(" + String.Format("{0,5}" , (toTokyo/mile).ToString("F2")) + "マイル)");
+			Console.WriteLine ("青森→東京　　　　" + String.Format("{0,4}" , toTokyo.ToString("F1"))    + "km" + "(" + String.Format("{0,3}" , (toTokyo/mile).ToString("F2")) + "マイル)");
 			Console.WriteLine ("飯田橋→渋谷　　　" + String.Format("{0,5}" , toShibuya.ToString("F1"))  + "km" + "(" + String.Format("{0,6}" , (toShibuya/mile).ToString("F2")) + "マイル)");
 			Console.WriteLine ("飯田橋→横浜　　　" + String.Format("{0,5}" , toYokohama.ToString("F1")) + "km" + "(" + String.Format("{0,6}" , (toYokohama/mile).ToString("F2")) + "マイル)");
 
@@ -46,6 +46,9 @@ namespace rensyu
 				Console.WriteLine(ages[i]);
 				}
 			}
+			foreach(var item in ages){
+			}
+
 			Console.WriteLine ("練習(10)--------------------------------");
 			for(int j = 0 ; j < ages.Length ; j++){
 				if(ages[j] >= 7 && ages[j] <= 12){
