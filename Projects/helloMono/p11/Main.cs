@@ -21,13 +21,6 @@ namespace p11
 				}else{
 					Console.WriteLine(item);
 				}
-				var input = Console.ReadLine();
-				int inputInt = int.Parse(input);
-				if(inputInt > 10){
-					Console.WriteLine("でかい！！");
-				}else{
-					Console.WriteLine("小さい");
-				}
 			}
 
 		}
