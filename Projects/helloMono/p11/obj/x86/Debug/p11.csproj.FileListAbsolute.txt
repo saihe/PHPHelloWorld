@@ -1,0 +1,5 @@
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p11\bin\Debug\p11.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p11\bin\Debug\p11.pdb
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p11\obj\x86\Debug\p11.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p11\obj\x86\Debug\p11.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p11\obj\x86\Debug\p11.pdb

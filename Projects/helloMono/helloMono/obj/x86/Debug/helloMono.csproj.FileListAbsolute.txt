@@ -1,0 +1,5 @@
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\helloMono\bin\Debug\helloMono.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\helloMono\bin\Debug\helloMono.pdb
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\helloMono\obj\x86\Debug\helloMono.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\helloMono\obj\x86\Debug\helloMono.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\helloMono\obj\x86\Debug\helloMono.pdb

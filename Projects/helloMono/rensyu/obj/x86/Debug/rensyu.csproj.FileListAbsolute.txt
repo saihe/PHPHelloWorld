@@ -1,0 +1,4 @@
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\rensyu\bin\Debug\rensyu.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\rensyu\bin\Debug\rensyu.pdb
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\rensyu\obj\x86\Debug\rensyu.exe
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\rensyu\obj\x86\Debug\rensyu.pdb

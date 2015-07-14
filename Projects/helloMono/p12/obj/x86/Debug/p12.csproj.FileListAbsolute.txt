@@ -1,0 +1,1 @@
+C:\xampp\htdocs\PHPHelloWorld\Projects\helloMono\p12\obj\x86\Debug\p12.csprojResolveAssemblyReference.cache
